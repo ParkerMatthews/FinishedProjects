@@ -1,0 +1,450 @@
+table{
+	width: 90%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+td{
+	padding: 10px;
+}
+  
+th{
+	padding: 10px;
+}
+  
+tr:nth-of-type(odd){
+background-color: #d2b48e;
+}
+.item{
+    background-color: #FAF9F7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+    float: right;
+}
+
+.item img{
+    float:right;
+}
+
+.item button{
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* mobile screen */
+@media (max-width:600px) {
+	audio { display: block; margin-top: 1em; }
+
+	form { padding: 2em; }
+
+	label { float: left;
+			display: block; 
+			text-align: right;
+			width: 8em;
+			padding-right: 1em;
+			clear: left; }
+
+	input, textarea { display: block; margin-bottom: 1em; }
+
+
+	#content-table { width: 90%; 
+			margin: auto;
+			border-spacing: 0px;}
+			
+	td, th { padding: 0px;
+			border-style: none; }
+			
+
+	#windingroad { background-image: url(img/road.jpg);
+				background-size: 100% 100%;
+				height:350px; }
+				
+	#heromugs { background-image: url(img/threemugs.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+				
+	#heroguitar { background-image: url(img/guitar.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+				
+	#herocups { background-image: url(img/coffeecup.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+			
+	#herocouch { background-image: url(img/herocouch.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+
+	#mobile {display: inline;}
+	#desktop{display: none;}
+
+	nav a:link { color: #FEF6C2; }
+	nav a:visited { color: #D2B48C; }
+	nav a:hover { color: #CC9933; }
+
+	nav {
+		text-align: center;
+		font-size: 1.5em; 
+		height: 200px; }
+	nav ul { list-style-type: none; padding-left: 0px; flex-direction: column; display: flex; margin: 0; padding: 0; font-size: 1.25em; }
+	nav a { text-decoration: none; }
+	nav li{padding-top: .5em; padding-bottom: .5em; padding-left: 1em; padding-right: 1em; width: 100%; border-bottom: 1px;}
+
+	body { background-color: #D2B48C;
+		font-size: .8em;
+		color: #221811;
+		font-family: Verdana, Arial, sans-serif;
+		margin: 0; }
+		
+	header { background-color: #D2B48C;
+			height: 128px;
+			padding-left: 105px;
+			background-image: url(img/cup.jpg);
+			background-repeat: no-repeat; }
+			
+	h1 { font-size: .2em;
+		padding-top: 30px;
+		padding-left: 220px;
+		line-height: 200%;
+		}
+
+	h4 { background-color: #D2B48C; 
+		font-size: 1.2em; 
+		padding-left: 10px; 
+		padding-bottom: 0px;
+		border-bottom: 2px solid #221811;
+		text-transform: uppercase; 
+		clear: left; }
+
+	img { padding: 0px 10px }
+
+	main { padding: 0px 0px 2em 0px;
+		background-color: #FCEBB6; 
+		font: #221811;
+		}
+
+	main ul {padding-left: 1em;}
+	main h2, main h3, main h4, main p, main div, main dl { padding-left: 1em; padding-right: 1em; }
+	header, nav, main, footer { display: block; }
+
+	/* .floatleft { float: left; padding: 0px 20px 20px 0px; }
+
+	.onethird{
+		float: left;
+		width: 33%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}  */
+
+	.details { padding-left: 20%;
+			padding-right: 20%;
+			overflow: auto; }
+			
+	#wrapper { background-color: #231814;
+	}
+			
+			
+
+	#nav-bar{
+		width:200px;
+		margin-right: 0px;
+		margin-left : 0px;
+	}
+	#menu_main { padding: 0px 0px 2em 0px;
+		margin-left: 200px;
+		background-color: #FCEBB6; 
+		font: #221811;
+		margin-top: -150px;
+		}
+	footer { background-color: #D2B48C;
+			font-size: .60em; 
+			font-style: italic;
+			text-align: center;
+			padding-bottom: 10px; 
+			border: 2px solid #221811; 
+			}
+		}
+/* tablet screen */
+@media (min-width:600px) {
+	audio { display: block; margin-top: 1em; }
+
+	form { padding: 2em; }
+
+	label { float: left;
+			display: block; 
+			text-align: right;
+			width: 8em;
+			padding-right: 1em;
+			clear: left; }
+
+	input, textarea { display: block; margin-bottom: 1em; }
+
+
+	#content-table { width: 90%; 
+			margin: auto;
+			border-spacing: 0px;}
+			
+	td, th { padding: 0px;
+			border-style: none; }
+			
+
+	#windingroad { background-image: url(img/hero.jpg);
+				background-size: 100% 100%;
+				height:50vh; }
+				
+	#heromugs { background-image: url(img/heromugs.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+				
+	#heroguitar { background-image: url(img/heroguitar.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+
+	#herocups { background-image: url(img/coffeecup.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+	#herocouch { background-image: url(img/herocouch.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+
+	#mobile {display: none;}
+	#desktop{display: inline;}
+	#flow{flex: row;}
+	#details{flex: row;}
+	nav a:link { color: #FEF6C2; }
+	nav a:visited { color: #D2B48C; }
+	nav a:hover { color: #CC9933; }
+
+	nav { font-weight: bold;
+		text-align: center;
+		font-size: 1.5em; 
+		padding-top: 10px; 
+		float: left; 
+		width: 200px;
+		height: 200px; }
+	nav ul { list-style-type: none; padding-left: 0px; flex-direction:row; display: flex; margin: 0; padding: 0; font-size: 1.25em; justify-content: space-around; }
+	nav a { text-decoration: none; }
+	nav li{padding-top: .5em; padding-bottom: .5em; padding-left: 1em; padding-right: 1em; width: 100%; border-bottom: none;}
+	body { background-color: #FCEBB6;
+		font-size: .8em;
+		background-image: url(img/fadedroad50.jpg);
+		color: #221811;
+		font-family: Verdana, Arial, sans-serif; }
+		
+	header { background-color: #D2B48C;
+			height: 150px;
+			padding-left: 0px;
+			background-image: url(img/coffeelogo.jpg);
+			background-repeat: no-repeat;
+		text-align: center; }
+			
+	h1 { font-size: 3em;
+		padding-top: 30px;
+		padding-left: 220px;
+		line-height: 200%;
+		}
+
+	h4 { background-color: #D2B48C; 
+		font-size: 1.2em; 
+		padding-left: 10px; 
+		padding-bottom: 0px;
+		border-bottom: 2px solid #221811;
+		text-transform: uppercase; 
+		clear: left;
+		margin-left: 10%;
+		margin-right: 10%; }
+
+	img { padding: 0px 10px }
+
+	main { padding: 0px 0px 2em 0px;
+		margin-left: 200px;
+		background-color: #FCEBB6; 
+		font: #221811;
+		}
+
+	main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 3em; padding-right: 2em; }
+	header, nav, main, footer { display: block; }
+
+	.floatleft { float: left; padding: 0px 20px 20px 0px; }
+
+	.details { padding-left: 20%;
+			padding-right: 20%;
+			overflow: auto; }
+			
+	#wrapper { background-color: #231814;
+			width: 80%;
+			min-width: 900px;
+			max-width: 1280px;
+			box-shadow: 3px 3px 3px #333;
+			margin-right: auto;
+			margin-left: auto; }
+			
+
+	#nav-bar{
+		width:200px;
+		margin-right: 0px;
+		margin-left : 0px;
+	}
+	#menu_main { padding: 0px 0px 2em 0px;
+		margin-left: 200px;
+		background-color: #FCEBB6; 
+		font: #221811;
+		margin-top: -150px;
+		}
+	footer { background-color: #D2B48C;
+			font-size: .60em; 
+			font-style: italic;
+			text-align: center;
+			padding-bottom: 10px; 
+			border: 2px solid #221811; 
+			}
+		}	
+/* full screen  */
+@media (min-width:1024px) {
+	audio { display: block; margin-top: 1em; }
+
+	form { padding: 2em; }
+
+	label { float: left;
+			display: block; 
+			text-align: right;
+			width: 8em;
+			padding-right: 1em;
+			clear: left; }
+
+	input, textarea { display: block; margin-bottom: 1em; }
+
+
+	#content-table { width: 90%; 
+			margin: auto;
+			border-spacing: 0px;}
+			
+	td, th { padding: 0px;
+			border-style: none; }
+			
+
+	#windingroad { background-image: url(img/road.jpg);
+				background-size: 100% 100%;
+				height:350px; }
+				
+	#heromugs { background-image: url(img/heromugs.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+				
+	#heroguitar { background-image: url(img/heroguitar.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+	#herocups { background-image: url(img/coffeecup.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+	#herocouch { background-image: url(img/herocouch.jpg);
+				background-size: 100% 100%;
+				height:250px; }
+
+	nav a:link { color: #FEF6C2; }
+	nav a:visited { color: #D2B48C; }
+	nav a:hover { color: #CC9933; }
+
+	nav { font-weight: bold;
+		text-align: center;
+		font-size: 1.5em; 
+		padding-top: 10px; 
+		float: left; 
+		width: 200px;
+		height: 200px;
+		grid-area: nav; }
+	nav ul { list-style-type: none; padding-left: 0px; flex-direction: column; }
+	nav a { text-decoration: none; }
+
+	body { background-color: #FCEBB6;
+		font-size: .8em;
+		background-image: url(img/fadedroad50.jpg);
+		color: #221811;
+		font-family: Verdana, Arial, sans-serif; }
+		
+	header { background-color: #D2B48C;
+			height: 150px;
+			padding-left: 50px;
+			background-image: url(img/coffeelogo.jpg);
+			background-repeat: no-repeat;
+			grid-area: header; }
+			
+	h1 { font-size: 3em;
+		padding-top: 30px;
+		padding-left: 220px;
+		line-height: 200%;
+		}
+
+	h4 { background-color: #D2B48C; 
+		font-size: 1.2em; 
+		padding-left: 10px; 
+		padding-bottom: 0px;
+		border-bottom: 2px solid #221811;
+		text-transform: uppercase; 
+		clear: left; }
+
+	img { padding: 0px 10px }
+
+	main { padding: 0px 0px 2em 0px;
+		margin-left: 200px;
+		background-color: #FCEBB6; 
+		font: #221811;
+		grid-area: main;
+		}
+
+	main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 3em; padding-right: 2em; }
+	header, nav, main, footer { display: block; }
+
+	.floatleft { float: left; padding: 0px 20px 20px 0px; }
+
+	.details { padding-left: 20%;
+			padding-right: 20%;
+			overflow: auto; }
+			
+	 #wrapper { background-color: #231814;
+			width: 80%;
+			min-width: 900px;
+			max-width: 1280px;
+			box-shadow: 3px 3px 3px #333;
+			margin-right: auto;
+			margin-left: auto; 
+			/* display: grid;
+			grid-template: 
+			"header header"
+			"nav    main"
+			"footer  footer"
+			/ 200px;*/ } 
+	
+
+
+	#flow {
+			padding-left:10px;
+			display: flex;
+			flex-direction: row;
+	}
+	#nav-bar{
+		width:200px;
+		margin-right: 0px;
+		margin-left : 0px;
+	}
+	#menu_main { padding: 0px 0px 2em 0px;
+		margin-left: 200px;
+		background-color: #FCEBB6; 
+		font: #221811;
+		margin-top: -150px;
+		}
+	footer { background-color: #D2B48C;
+			font-size: .60em; 
+			font-style: italic;
+			text-align: center;
+			padding-bottom: 10px; 
+			border: 2px solid #221811;
+			grid-area: footer; 
+			}
+		}
+
+* { box-sizing: border-box; }

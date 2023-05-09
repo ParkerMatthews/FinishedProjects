@@ -1,0 +1,80 @@
+/* single line comment and block commemnt */
+
+body{
+    background-color: #FFFFFF;
+    font-family: Verdana,Arial,sans-serif;
+}
+
+header{
+    background-color: #003366;
+    color: #AEC3E3;
+    background-image: url("images/lilyheader.jpg");
+    background-size: 100% 100%;  
+    text-align: left;
+    height: 150px;
+}
+
+h1{
+    line-height: 200%;
+    padding-top: 50px;
+    padding-left: 8em;
+}
+
+h2{
+    color: #003366;
+    font-size: 200%;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+}
+nav a{
+    text-decoration: none;
+}
+footer{
+    background-color: #F0F0F0;
+    font-size: .60em;
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: italic;
+    padding:1em;
+}
+
+img{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+main{
+    padding-left: 15em;
+    padding-right: 2em;
+    display: block;
+}
+
+/* class */
+.studio{
+    color:#8C3826;
+    font-style: italic;
+}
+.house{
+    color:#5280C5;
+}
+.chad{
+    font: Comic;
+}
+
+/* id styling where you can apply to tags with this id  */
+#wrapper{
+    margin-right: auto;    /*auto space everywhere to the right*/
+    margin-left: auto;
+    width:80%;
+    background-color: #F5F5F5;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+
+#hero{
+    text-align: center;
+}
